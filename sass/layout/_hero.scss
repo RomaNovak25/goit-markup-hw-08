@@ -1,0 +1,64 @@
+.hero__title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero {
+    max-width: 1600px;
+    width: 100%;
+    padding-bottom: 105px;
+    padding-top: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/hero/bc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-us__advantages-list-count {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about-us__advantages-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+    & {
+        margin-top: 10px;
+    }
+}
+
+.my-team__job-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
+.my-team {
+    width: 100%;
+    background-color: #F5F4FA;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
