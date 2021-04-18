@@ -1,7 +1,6 @@
 body {
     font-family: var(--main-font);
     color: #212121;
-    ;
 }
 
 .link {
@@ -36,4 +35,6 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
