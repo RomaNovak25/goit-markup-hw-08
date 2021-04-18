@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "../sass/layout/my-team.scss"
+    ],
+    "names": [],
+    "file": "my-team.css"
+}
