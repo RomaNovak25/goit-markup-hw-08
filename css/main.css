@@ -199,6 +199,10 @@ img {
   padding-right: 10px;
 }
 
+.mobile-menu__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mob-menu__social-item {
   font-weight: 500;
   font-size: 18px;
@@ -208,9 +212,8 @@ img {
   padding-left: 10px;
 }
 
-/*???????????????????????????????????*/
 .mobile-menu__contact-phone {
-  margin-top: 302px;
+  margin-top: 50px;
   margin-bottom: 32px;
 }
 
