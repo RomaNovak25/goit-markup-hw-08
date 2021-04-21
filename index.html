@@ -67,10 +67,10 @@
 
             <ul class="mobile-menu__list list">
                 <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link" href="./index.html">Студия</a>
+                    <a class="mobile-menu__link link" href="./index.html">Студия</a>
                 </li>
                 <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+                    <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li class="mobile-menu__item">
                     <a href="" class="mobile-menu__link link">Контакты</a>
@@ -200,7 +200,21 @@
 
                 <ul class="my-team__list list">
                     <li class="my-team__link-item">
-                        <img class="my-team__parametr-img" src="./images/myteem/myteem_img_1.jpg" alt="Photo" width="270" height="260">
+                        <picture>
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-1.webp 1x, ./images/myteem/img-desktop-1@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-1.jpg 1x, ./images/myteem/img-desktop-1@2x.jpg 2x">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tablet-1.webp 1x, ./images/myteem/img-tablet-1@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tabletb-1.jpg 1x, ./images/myteem/img-tabletb-1@2x.jpg 2x" >
+                            <source media="(min-width: 480px)" 
+                                srcset="./images/myteem/img-mob-1.webp 1x, ./images/myteem/img-mob-1@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 480px)" 
+                                srcset="./images/myteem/img-mob-1.jpg 1x, ./images/myteem/img-mob-1@2x.jpg 2x">
+                            <img class="my-team__parametr-img" src="./images/myteem/img-mob-1.jpg" alt="Photo">
+                        </picture>
                         <div class="my-team__name-job-wrapper">
                             <h3 class="my-team__suptitle" >Игорь Демьяненко</h3>
                             <p class="my-team__job-post" >Product Designer</p>
@@ -238,7 +252,21 @@
                         </div>
                     </li>
                     <li class="my-team__link-item">
-                        <img class="my-team__parametr-img" src="./images/myteem/myteem_img_2.jpg" alt="Photo" width="270" height="260">
+                        <picture>
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-2.webp 1x, ./images/myteem/img-desktop-2@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-2.jpg 1x, ./images/myteem/img-desktop-2@2x.jpg 2x">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tablet-2.webp 1x, ./images/myteem/img-tablet-2@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tabletb-2.jpg 1x, ./images/myteem/img-tabletb-2@2x.jpg 2x">
+                            <source media="(max-width: 480px)" 
+                                    srcset="./images/myteem/img-mob-2.webp 1x, ./images/myteem/img-mob-2@2x.webp 2x" type="image/webp">
+                            <source media="(max-width: 480px)" 
+                                srcset="./images/myteem/img-mob-2.jpg 1x, ./images/myteem/img-mob-2@2x.jpg 2x">
+                            <img class="my-team__parametr-img" src="./images/myteem/img-mob-2.jpg" alt="Photo">
+                        </picture>
                         <div class="my-team__name-job-wrapper">
                             <h3 class="my-team__suptitle" >Ольга Репина</h3>
                             <p class="my-team__job-post" >Frontend Developer</p>
@@ -276,7 +304,21 @@
                         </div>
                     </li>
                     <li class="my-team__link-item">
-                        <img class="my-team__parametr-img" src="./images/myteem/myteem_img_3.jpg" alt="Photo" width="270" height="260">
+                        <picture>
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-3.webp 1x, ./images/myteem/img-desktop-3@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-3.jpg 1x, ./images/myteem/img-desktop-3@2x.jpg 2x">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tablet-3.webp 1x, ./images/myteem/img-tablet-3@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tabletb-3.jpg 1x, ./images/myteem/img-tabletb-3@2x.jpg 2x" >
+                            <source media="(max-width: 480px)" 
+                                srcset="./images/myteem/img-mob-3.webp 1x, ./images/myteem/img-mob-3@2x.webp 2x" type="image/webp">
+                            <source media="(max-width: 480px)" 
+                                srcset="./images/myteem/img-mob-3.jpg 1x, ./images/myteem/img-mob-3@2x.jpg 2x">
+                            <img class="my-team__parametr-img" src="./images/myteem/img-mob-3.jpg" alt="Photo">
+                        </picture>
                         <div class="my-team__name-job-wrapper">
                             <h3 class="my-team__suptitle" >Николай Тарасов</h3>
                             <p class="my-team__job-post" >Marketing</p>
@@ -314,7 +356,21 @@
                         </div>
                     </li>
                     <li class="my-team__link-item">
-                        <img class="my-team__parametr-img" src="./images/myteem/myteem_img_4.jpg" alt="Photo" width="270" height="260">
+                        <picture>
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-4.webp 1x, ./images/myteem/img-desktop-4@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 1200px)" 
+                                srcset="./images/myteem/img-desktop-4.jpg 1x, ./images/myteem/img-desktop-4@2x.jpg 2x">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tablet-4.webp 1x, ./images/myteem/img-tablet-4@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 768px)" 
+                                srcset="./images/myteem/img-tabletb-4.jpg 1x, ./images/myteem/img-tabletb-4@2x.jpg 2x" >
+                            <source media="(max-width: 480px)" 
+                                srcset="./images/myteem/img-mob-4.webp 1x, ./images/myteem/img-mob-4@2x.webp 2x" type="image/webp">
+                            <source media="(max-width: 480px)" 
+                                srcset="./images/myteem/img-mob-4.jpg 1x, ./images/myteem/img-mob-4@2x.jpg 2x">
+                            <img class="my-team__parametr-img" src="./images/myteem/img-mob-4.jpg" alt="Photo">
+                        </picture>
                         <div class="my-team__name-job-wrapper">
                             <h3 class="my-team__suptitle" >Михаил Ермаков</h3>
                             <p class="my-team__job-post" >UI Designer</p>
@@ -357,7 +413,7 @@
     </main>
 
 
-    <!-- <section class="our-work"> 
+    <section class="our-work"> 
         <div class="container">
             <h2 class="title">Постоянные клиенты</h2>
             <ul class="our-work__regular-client-list list">
@@ -417,12 +473,12 @@
                 </li>
             </ul>
         </div>
-    </section> -->
+    </section>
     
 
-        <!-- <footer class="footer">
-            <div class="container-logo">
-                <div class="container-address ">
+        <footer class="footer"> 
+            <div class="container">
+                <div class="footer__address">
                     <nav class="navigation">
                         <a class="logo link" href="">
                             <h2 class="logo_text" lang="en">Web<span class="logo_dark_theme">Studio</span></h2>
@@ -434,18 +490,18 @@
                             <li class="address__list-item" >
                                 <a class="address__list-contact link" href="https://goo.gl/maps/BmeUKQfHhDsBWqQn6" target="_blank" rel="noopener noreferrer">г. Киев,
                                 пр-т Леси Украинки, 26</a>
-                                </li>
-                                <li class="addres__list-item" >
-                                <a class="address__list-mail link" href="mailto:info@example.com" lang="en">info@example.com</a>
+                               </li>
+                            <li class="address__list-item" >
+                                <a class="address__list-mail-footer link" href="mailto:info@example.com" lang="en">info@example.com</a>
                             </li>
                             <li class="address__list-item" >
-                                <a class="address__list-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+                                <a class="address__list-tel-footer link" href="tel:+380991111111">+38 099 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 
-                <div class="container-footer">
+                <div class="footer__social-list">
                     <h2 class="title-footer">присоединяйтесь</h2>
                     
                     <ul class="my-team__social-list-footer list">
@@ -480,7 +536,7 @@
                     </ul>
                 </div>
 
-                <div class="email-form">
+                <div class="email-form ">
                 <p class="email-form__title-mailing">Подпишитесь на рассылку</p>
                     <form action="#" class="email-form__mailing-section" name="mail">
                         <label class="email-form__mailing-label">
@@ -496,9 +552,9 @@
                     </form>
                 </div>
             </div>
-        </footer>   -->
+        </footer>   
         
-        <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="submit" class="modal__close-btn" data-modal-close>
                     <svg class="modal__close-btn-list-icon" 
@@ -563,10 +619,10 @@
                     <button type="submit" class="modal__form-btn" >Отправить</button>
                 </form>
             </div>
-        </div> -->
+        </div>
 
         <script src="./js/mobile-menu.js"></script>
-        <!-- <script src="./js/modal.js"></script> -->
+        <script src="./js/modal.js"></script>
     </body>
 </html>
     

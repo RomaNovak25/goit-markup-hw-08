@@ -14,6 +14,39 @@
     margin-bottom: 30px;
 }
 
+.our-work__regular-client-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.our-work__regular-client-list-item {
+    max-width: 210px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.our-work__regular-client-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+}
+
+.our-work__regular-client-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-work__regular-client-list-icon {
+    fill: #AFB1B8;
+}
 
 
 

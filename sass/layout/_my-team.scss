@@ -1,4 +1,5 @@
 .my-team {
+    width: 480px;
     margin-top: 60px;
     background: #F5F4FA;
 }
@@ -6,6 +7,7 @@
 .my-team__social-list-footer {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .my-team__social-link-item:not(:last-child) {
@@ -49,11 +51,29 @@
 .my-team__list {
     display: block;
     margin: 0 auto;
+    padding-bottom: 60px;
 }
 
 .my-team__job-post {
     text-align: center;
+    margin-bottom: 16px;
+}
 
+.my-team__name-job-wrapper {
+    padding-top: 30px;
+    padding-bottom: 24px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title {
+    padding-top: 60px;
+}
+
+.my-team__link-item:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 // .my-team__parametr-img {

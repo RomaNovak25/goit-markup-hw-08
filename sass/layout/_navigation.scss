@@ -1,4 +1,61 @@
+ .footer__address .navigation {
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.address {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
 .navigation {
     display: flex;
     align-items: center;
+}
+
+.address__list-mail-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.address__list-tel-footer {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address__list-contact {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address__list-item {
+    text-align: center;
+}
+
+.address__list-item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.title-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
