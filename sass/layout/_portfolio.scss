@@ -2,10 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    justify-content: center;
+    margin-top: 60px;
 }
 
 .portfolio__modal-btn-item {
     margin-bottom: 15px;
+
+    @media screen and (min-width:768px) {
+        margin-right: 8px;
+    }
 }
 
 .work-list__content-wrapper {
@@ -29,44 +35,46 @@
     margin-bottom: 60px;
 }
 
-// .portfolio__navigation-modal-btn {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     padding-bottom: 50px;
-//     flex-wrap: wrap;
-// }
+@media screen and (min-width: 1200px) {
+    .portfolio__navigation-modal-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+    }
 
-// .work-list {
-//     display: block;
-//     flex-wrap: wrap;
-//     align-items: center;
-//     margin-top: -30px;
-//     margin-left: -30px;
-// }
+    .work-list {
+        display: block;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
 
-// .work-list__item {
-//     flex-basis: calc(100% / 3 - 30px);
-//     margin-top: 30px;
-//     margin-left: 30px;
-// }
+    .work-list__item {
+        flex-basis: calc(100% / 3 - 30px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
 
-// .work-list__container-wrapper {
-//     padding-top: 20px;
-//     padding-bottom: 20px;
-//     background: #FFFFFF;
-//     border: 1px solid #EEEEEE;
-//     box-sizing: border-box;
-//     border-top: none;
-//     padding-left: 24px;
-//     padding-right: 24px;
-// }
+    .work-list__container-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        box-sizing: border-box;
+        border-top: none;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 
-// .work-list__content-wrapper {
-//     position: relative;
-//     overflow: hidden;
-// }
+    .work-list__content-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
 
-// .portfolio__modal-btn-item {
-//     margin-bottom: 15px;
-// }
+    .portfolio__modal-btn-item {
+        margin-bottom: 15px;
+    }
+}

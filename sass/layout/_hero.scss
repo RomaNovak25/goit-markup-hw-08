@@ -1,16 +1,14 @@
-.hero {
-    // width: 480px;
-    // height: 400px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-    url(../images/hero/header-mob-img.jpg);
-    padding-top: 118px;
-    padding-bottom: 198px;
-    background-size: cover;
-    margin-bottom: 60px;
-}
+@media screen and (max-width: 767px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/hero/header-mob-img.jpg);
+        padding-top: 118px;
+        padding-bottom: 198px;
+        background-size: cover;
+    }
 
-@media (min-device-pixel-ratio: 2),
+    @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (-o-min-device-pixel-ratio: 2/1),
     (min-resolution: 192dpi),
@@ -20,66 +18,101 @@
         }
     }
 
+    .hero__title {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
 
-.hero__title {
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 30px;
+    .about-us {
+        display: block;
+    }
 }
 
-.about-us {
-    display: block;
+@media screen and (min-width: 768px) {
+    .hero__title {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 360px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/hero/header-tablet-img.jpg);
+        padding-top: 118px;
+        padding-bottom: 198px;
+        background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: url(../images/hero/header-tablet-img@2x.jpg);
+        }
+    }
 }
 
-// .hero__title {
-//     margin-right: auto;
-//     margin-left: auto;
-//     margin-bottom: 30px;
-//     font-weight: 900;
-//     font-size: 44px;
-//     line-height: 1.36;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     color: #FFFFFF;
-// }
+@media screen and (min-width: 1200px) {
+    .hero__title {
+        margin: 0 auto;
+        width: 696px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 
-// .hero {
-//     max-width: 1600px;
-//     width: 100%;
-//     padding-bottom: 105px;
-//     padding-top: 200px;
-//     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-//             rgba(47, 48, 58, 0.4)),
-//         url("../images/hero/bc.jpg");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     margin-right: auto;
-//     margin-left: auto;
-// }
+    .hero {
+        max-width: 1600px;
+        width: 100%;
+        padding-bottom: 105px;
+        padding-top: 200px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url("../images/hero/bc.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-// .about-us__advantages-list-count {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-// }
+    .about-us__advantages-list-count {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
 
-// .about-us__advantages-list-description {
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
-//     color: #757575;
+    .about-us__advantages-list-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
 
-//     & {
-//         margin-top: 10px;
-//     }
-// }
-
+        & {
+            margin-top: 10px;
+        }
+    }
+}

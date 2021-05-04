@@ -1,43 +1,45 @@
-.footer-my-team__social-list-icon {
-    fill: #FFFFFF;
-    width: 20px;
-    height: 20px;
-}
+@media screen and (max-width: 1200px) {
+    .footer-my-team__social-list-icon {
+        fill: #FFFFFF;
+        width: 20px;
+        height: 20px;
+    }
 
-.footer-my-team__social-list-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .footer-my-team__social-list-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        background-color: #2196F3;
+        &:hover,
+        &:focus {
+            background-color: #2196F3;
+        }
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .title-footer {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #2196F3;
 
-// .title-footer {
-//     font-weight: 700;
-//     font-size: 24px;
-//     line-height: 1.17;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     color: #2196F3;
+    }
 
-// }
-
-// .title-footer {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     color: #FFFFFF;
-//     margin-bottom: 20px;
-// }
-
+    .title-footer {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+}

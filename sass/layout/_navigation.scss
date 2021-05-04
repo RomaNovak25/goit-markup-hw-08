@@ -1,4 +1,4 @@
- .footer__address .navigation {
+.footer__address .navigation {
     justify-content: center;
     padding-top: 60px;
 }
@@ -7,6 +7,10 @@
     margin: 0 auto;
     margin-top: 20px;
     padding-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 0;
+    }
 }
 
 .navigation {

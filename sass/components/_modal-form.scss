@@ -144,3 +144,8 @@
         fill: #2196F3;
     }
 }
+
+
+.modal__form-input:focus+.modal__title-text {
+    color: var(--accent-color);
+}
